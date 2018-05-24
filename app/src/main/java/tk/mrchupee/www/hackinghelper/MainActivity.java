@@ -10,4 +10,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    // Hacking program clustermess
+
+    // Martial Arts tables and notes
+
+    // Booty L1 and L2 tables
+
+    // Metachemistry L1 and L2 tables
+
+    // Notebook
 }

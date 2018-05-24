@@ -1,18 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="tk.mrchupee.www.hackinghelper.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/hacking_helper_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_hacking"
+        android:text="@string/category_hacking" />
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/booty_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_booty"
+        android:text="@string/category_booty" />
+
+    <TextView
+        android:id="@+id/metachemistry_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_metachemistry"
+        android:text="@string/category_metachemistry" />
+
+    <TextView
+        android:id="@+id/martial_arts_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_martial_arts"
+        android:text="@string/category_martial_arts" />
+
+    <TextView
+        android:id="@+id/guard_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_guard"
+        android:text="@string/category_guard" />
+
+    <TextView
+        android:id="@+id/protheion_button"
+        style="@style/CategoryStyle"
+        android:background="@color/category_protheion"
+        android:text="@string/category_protheion" />
+
+
+
+</LinearLayout>
