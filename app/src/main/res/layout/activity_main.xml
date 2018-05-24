@@ -45,6 +45,4 @@
         android:background="@color/category_protheion"
         android:text="@string/category_protheion" />
 
-
-
 </LinearLayout>
